@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+<style type="text/css">
+    .box{
+        float:left;
+        overflow: hidden;
+        background: #f0e68c;
+    }
+    /* Add padding and border to inner content
+    for better animation effect */
+    .box-inner{
+        width: 400px;
+        padding: 10px;
+        border: 1px solid #a29415;
+    }
+#imgs {
+  border-radius: 50%;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+body {
+  margin: 0;
+ font-family: Microsoft PhagsPa;
+  
+}
+
+.header {
+	font-family: Microsoft PhagsPa;
+	float:right;
+	
+  background-color: #4CAF50;
+  
+ 
+}
+
+#navbar {
+font-family: Calibri Light (Headings);
+  overflow: hidden;
+  background-color: #4CAF50;
+}
+
+#navbar a {
+font-family: Calibri Light (Headings);
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+font-family: Calibri Light (Headings);
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+   
+</style>
+<script>
+$(document).ready(function(){
+$(".col-md-4").mouseover(function() {
+$(".col-md-4").css("background-color","#FFD700" );
+
+});
+$(".col-md-4").mouseout(function() {
+$(".col-md-4").css("background-color","lightgray");
+
+});
+
+});
+
+</script>
+
+<script>
+$(document).ready (function() 
+{
+	$("#Next").click (function() {
+	$("#First").slideUp();
+	$("#Second").show().css("opacity","1");
+	$("#Next2").hide();
+	$("Previous").css()
+	});
+
+	
+	
+	});
+$(document).ready (function() 
+{
+	$("#Prev2").click (function() {
+	$("#Second").slideUp();
+	$("#First").show();
+	$("Prev2").hide();
+	$("Next").show();
+	
+	
+	});
+
+	
+	
+	});
+
+
+
+
+
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var boxWidth = $("#box").width();
+        $("#box").mouseover(function(){
+		$("#text").css("background-color","#8D8D8D", "color","white")
+            $("#box").animate({
+                width: 0
+            });
+			
+	
+		});
+        $("#box").mouseout(function(){
+		$("#text").css("background-color","#FFED8C", "color","white")
+            $("#box").animate({
+                width: boxWidth
+            });
+			
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var boxWidth = $("#box").width();
+        $("#box2").mouseover(function(){
+		$("#text2").css("background-color","#8D8D8D", "color","white")
+            $("#box2").animate({
+                width: 0
+            });
+			
+	
+		});
+        $("#box2").mouseout(function(){
+		$("#text2").css("background-color","#FFED8C", "color","white")
+            $("#box2").animate({
+                width: boxWidth
+            });
+			
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var boxWidth = $("#box").width();
+        $("#box3").mouseover(function(){
+		$("#text3").css("background-color","#8D8D8D", "color","white")
+            $("#box3").animate({
+                width: 0
+            });
+			
+	
+		});
+        $("#box3").mouseout(function(){
+		$("#text3").css("background-color","#FFED8C", "color","white")
+            $("#box3").animate({
+                width: boxWidth
+            });
+			
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var boxWidth = $("#box").width();
+        $("#box4").mouseover(function(){
+		$("#text4").css("background-color","#8D8D8D", "color","white")
+            $("#box4").animate({
+                width: 0
+            });
+			
+	
+		});
+        $("#box4").mouseout(function(){
+		$("#text4").css("background-color","#FFED8C", "color","white")
+            $("#box4").animate({
+                width: boxWidth
+            });
+			
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var boxWidth = $("#box").width();
+        $("#box5").mouseover(function(){
+		$("#text5").css("background-color","#8D8D8D", "color","white")
+            $("#box5").animate({
+                width: 0
+            });
+			
+	
+		});
+        $("#box5").mouseout(function(){
+		$("#text5").css("background-color","#FFED8C", "color","white")
+            $("#box5").animate({
+                width: boxWidth
+            });
+			
+        });
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var boxWidth = $("#box").width();
+        $("#box6").mouseover(function(){
+		$("#text6").css("background-color","#8D8D8D", "color","white")
+            $("#box6").animate({
+                width: 0
+            });
+			
+	
+		});
+        $("#box6").mouseout(function(){
+		$("#text6").css("background-color","#FFED8C", "color","white")
+            $("#box6").animate({
+                width: boxWidth
+            });
+			
+        });
+    });
+</script>
+
+</head>
+
+<body>
+
+<div class="header">
+<div  class="top-info">
+
+<a href="tel:8408839923"> +91 8408839923</a><a href="tel:7768868948"> +91 7768868948</a>
+</div>
+<br>
+</div>
+
+
+<div id="navbar">
+
+
+<a  href="logo.png"><img  src="logo.png" height="60" width="258" alt="SourceKode Logo"></a>
+  <a class="active" href="javascript:void(0)"><b>HOME</b></a>
+  <a href="javascript:void(0)"><b>COURSES</b></a>
+  <a href="javascript:void(0)"><b>CORPORATE TRAINNING</b></a>
+   <a href="javascript:void(0)"><b>ABOUT</b></a>
+    <a href="javascript:void(0)"><b>PLACEMENTS</b></a>
+	 <a href="javascript:void(0)"><b>CONTACT US</b></a>
+	
+
+</div>
+
+
+  <div >
+  <img class="img-responsive" style="border-botton:10px solid black;"  src="We.png" width="100%" height="100%"/>
+  </div>
+
+
+  
+  
+  
+<div class="container-fluid" style="background-color:#F5F5F5;"> 
+<div style="margin:30px;">
+<img style="height:30px;"src="recommend.png">
+<img style="height:30px;"src="share.jpg"> &nbsp 4.9K people recommend this.<a href="https://www.facebook.com">Sign Up</a> to see what your friends recommend.
+<p style="color:green; font-size:30px; font-weight:bold; font-family:Microsoft PhagsPa;">Courses Available In Android, IOS, Web Design & Web Development, AngularJS, Java, Digital Marketing, Software Testing, MongoDB, TypeScript, PHP, HTML5,CSS3, Javascript, NodeJS And Dot Net At SourceKode Pune, India</p>
+<p style="font-style:italic;color:grey; font-size:25px;">We Love Training</p>
+<p style="color:grey; font-size:18px;font-family:Microsoft PhagsPa;"><b>SourceKode Training Institute</b> provides I.T related training services to college students and company employees situated all across India. SourceKode has an intense training programs for aspiring jobseeker's and corporate's to help them further learn and enhance their technical skill sets. A dedicated team of professional trainer's, with their technical expertise, can help student's get to a point of prowess which goes un-matched by most colleges and institutions.<a style="text-decoration:none;" href="#">Read More..</a></p>
+<div class="container">
+<div class="row">
+ 
+    <div  class="col-md-4" style="background-color:	#FFFFF0; border:10px solid white;">
+	<br>
+	<img src="logo2.png"/>
+     <b> Classroom Training<b><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspGet Trained & Placed At <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspSourceKode along with live<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp projects and certification
+    </div>  
+
+    <div class="col-md-4" style="background-color:#FFFFF0;border:10px solid white;">
+	<br>
+	<img src="logo2.png"/>
+      <b>Institutional Training<b>
+	  <br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspInstitutional Training Workshops<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspFor Students & Faculty Members<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspfrom Colleges
+    </div>
+	 
+	 <div class="col-md-4" style="background-color:	#FFFFF0;border:10px solid white;">
+      <br>
+	<img src="logo2.png"/>
+<b>Corporate Training</b>
+<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspGet Project Based Corporate <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspTraining For Employees From<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspQualified Trainers
+    </div>
+  </div>
+
+  </div>
+  </div>
+  
+  </div>
+  
+  
+  
+  
+  
+ <div class="container" style="background-color:#FFFFF0;">
+
+ <div class="row">
+  <div class="thumbnail">
+ <div class="col-md-3">
+ <img src="android.png"/>
+ <p style="color:grey; font-size:18px;font-family:Microsoft PhagsPa;"> 
+<b style="color:black;">Android Training Course</b><br>
+Get professional android application development course with uptodate industry standard syllabus.Join the Android Fever with the best android training institute in Pune, India and taste the flavour of success with SourceKode.</p>
+ 
+ 
+ </div>
+
+ <div class="col-md-3">
+ <img  class="img-responsive" src="ios.png"/>
+  <p style="color:grey; font-size:18px;font-family:Microsoft PhagsPa;">   
+<b style="color:black;">iOS App Development Training and Placement</b><br>
+iOS Training
+iPhone app development is currently the hottest technology. Rightly said it is not everybodys cup of tea but professional trainers make the learning experience really interesting.</p>
+ 
+ 
+ </div>
+
+ <div class="col-md-3">
+ <img  src="web.png"/>
+ <p style="color:grey; font-size:18px;font-family:Microsoft PhagsPa;"> <b style="color:black;">Website Design and Development Training Course
+Web Design & Development Training </b><br>
+Join the world of web development at SourceKode as we help you explore the creative new world of web-designing and development.</p>
+ 
+ 
+ </div>
+
+ <div class="col-md-3">
+ <img  src="Digi.png"/>
+ <p style="color:grey; font-size:18px;font-family:Microsoft PhagsPa;">   
+<b style="color:black;">Digital Marketing Classes-Courses in Pune</b><br>
+Digital Marketing Training 
+SourceKode has one of the latest and the most up-to-date Digital Marketing courses in all of Pune. The Curriculum is developed by industry experts and covers a wide range of topics.</p>
+  </div>
+ 
+ </div>
+ </div>
+ </div>
+
+
+ 
+ 
+
+  <br><br>
+	 
+<div class="container-fluid" style="background-color:#F5F5F5;"> 
+  <div class="container">
+  <h1 style="color:green;">Testimonials_____</h1>
+  <p style="font-size:20px; font-style:italic; color:gray;">SOME GOLDEN WORDS</p>
+<div class="row">
+<div id="First" class="col-md-6">
+<div class="thumbnail">
+
+<div class="caption">
+<p style="color:gray; font-family:Lucida Calligraphy;">
+Placed in Sarvavid Software Solutions at a Package of 30.4lacs as a Junior Android Developer! I had Joined SourceKode Technologies for Android Application Development course, i was a complete fresher with almost no knowledge of programming but Team SourceKode groomed me in Java, Android. The Live project experience at SourceKode helped me reduce the transition between the Course and the actual Job.
+
+- Rakesh Dadhich</p>
+
+</div>
+<button style="border-radius:50%; background-color:lightgrey;" id="Previus">&#8249;</button><button style="border-radius:50%; background-color:lightgrey; margin-left:500px;" id="Next">&#8250;</button>
+<img id="imgs" style="height:200px; margin-top:-45px;"src="C:\Users\Admin\Desktop\WEB\New folder\m.jpg" />
+
+
+
+</div>
+</div>
+<div style="opacity:0.2; " id="Second" class="col-md-6">
+<div class="thumbnail">
+
+<div class="caption">
+<p style="color:gray; font-family:Lucida Calligraphy;">
+Placed in Sarvavid Software Solutions at a Package of 30.4lacs as a Junior Android Developer! I had Joined SourceKode Technologies for Android Application Development course, i was a complete fresher with almost no knowledge of programming but Team SourceKode groomed me in Java, Android. The Live project experience at SourceKode helped me reduce the transition between the Course and the actual Job.
+
+- Rakesh Dadhich</p>
+
+</div>
+<button style="border-radius:50%; background-color:lightgrey;"id="Prev2">&#8249;</button>
+<button  style="border-radius:50%; background-color:lightgrey; margin-left:500px;" id="Next2">&#8250;</button>
+<img id="imgs" style="height:200px; margin-top:-45px;"src="C:\Users\Admin\Desktop\WEB\New folder\m.jpg" />
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+	<br><br>
+	<div class="container-fluid">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="thumbnail">
+<img id="box" src="C:\Users\Admin\Desktop\WEB\New folder\mobile.jpg">
+<div  id="text" style="background-color:#FFED8C;"class="caption">
+<b><center>MOBILE APPLICATION DEVELOPMENT</center></b>
+<i>Mobile application development is the process by which application software is developed for low-power handheld devices, such as personal digital assistants, enterprise digital assistants or mobile phones. At SourceKode Technologies..</i></div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail">
+<img id="box2"src="C:\Users\Admin\Desktop\WEB\New folder\web.jpg">
+<div id="text2" style="background-color:#FFED8C;" class="caption">
+
+<b><center>WEB APPLICATION DEVELOPMENT</center></b>
+<i>Web development is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing the simplest static single At SourceKode Technologies..</i>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail">
+<img id="box3" src="C:\Users\Admin\Desktop\WEB\New folder\software.jpg">
+<div id="text23" style="background-color:#FFED8C;" class="caption">
+<b><center>SOFTWARE APPLICATION DEVELOPMENT</center></b>
+<i>Software development (also known as application development, software design, designing software, software application development, enterprise application development , or platform development) At SourceKode Technologies...</i>
+
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="thumbnail">
+<img id="box4" src="C:\Users\Admin\Desktop\WEB\New folder\Testing.jpg">
+<div  id="text4" style="background-color:#FFED8C;"class="caption">
+<b><center>SOFTWARE TESTING COURSE</center></b>
+<i>Testing and QA is the most significant part of any software. Learn the art of Software Testing where we sharpen your skills on writing testcases, creating bu reports with live project assistance. At SourceKode Technologies..</i></div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail">
+<img id="box5" src="C:\Users\Admin\Desktop\WEB\New folder\Corporate.jpg">
+<div  id="text5" style="background-color:#FFED8C;"class="caption">
+<b><center>CORPORATE TRAINING PROGRAM</center></b>
+<i>Sourcekode Technologies offers the best corporate training in the city. The set of corporate trainers at Sourcekode Technologies have tremendous industry experience and take keen interest in imparting their knowledge to up-skill..</i></div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail">
+<img id="box6" src="C:\Users\Admin\Desktop\WEB\New folder\Entrance.jpg">
+<div  id="text6" style="background-color:#FFED8C;"class="caption">
+<b><center>ENTRANCE EXAM TRAINING</center></b>
+<i>We at SourceKode offers several entrance exam trainings along with IT courses which helps srudents to clear their first stage at the MNC's & various entrance exams.....</i></div>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
